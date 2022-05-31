@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href = "../css/estilo.css">
+    <link rel="stylesheet" href = "../css/estilocarrito.css">
+    <link rel="stylesheet" href = "../css/estilo_contactenos.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="https://kit.fontawesome.com/82edd683c2.js" crossorigin="anonymous"></script>
+   <!-- <script defer src="../js/stock.js"></script> -->
+    <script defer src="../js/modal.js"></script>
+    <script defer src="../js/control.js"></script>
+    <script>
+        function hizoClick() {
+          let nombre = document.getElementById("name").value;
+          let correo = document.getElementById("email").value;
+          if (nombre == "") {
+              alert("El campo nombre esta vacio, por favor llene el campo"); 
+          } else {
+              if (correo == "") {
+                alert("El campo correo esta vacio, por favor llene el campo"); 
+              } else {
+                alert("Tu mensaje fue enviado con exito :)");
+              }
+          }
+        }
+    </script>
+    <header>
+        <section class="hero">
+        <div class="logo"><img src="../img/logo2.png" width="300px"></div>
+        </section>
+    </header>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="../index.html"><i class="fa-solid fa-house fa-2xl"></i><p>Inicio</p></a></li>
+          <li><a href="quienes_somos.html"><i class="fa-solid fa-question fa-2xl"></i><p>Quienes somos</p></a>
+          </li>
+          <li><a href="velas.html"><i class="fa-solid fa-bag-shopping fa-2xl"></i><p>Productos</p></a>
+            <div class="submenu">
+                <ul><a href="incienso.html">Incienso</a></ul>
+                <ul><a href="velas.html">Velas</a></ul>
+                <ul><a href="Personalizacion.html">Personalizacion</a></ul>
+
+            </div>
+          </li>
+          <li><a href="contactenos.html"><i class="fa-solid fa-location-dot fa-2xl"></i><p>Contactanos</p></a></li>
+          <li><button id="boton-carrito"><i class="fa-solid fa-shopping-cart fa-2xl"></i><span id="contadorCarrito">0</span><p>Carrito</p></button></li>
+        </ul>
+    </nav>
+
+    <main id="contenedor-productos">
+
+    </main>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h2 class="titulo">REDES SOCIALES</h2>
+            <img src="../img/inicio.gif " width="700px" height="400px">
+        </div>
+        <div class="right">
+            <form action="#" method="POST">
+                <h2 class="titulo">CONTACTANOS</h2>
+            <div class="row">
+                <div class="col-25">
+                  <label for="nombre">Nombre</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="Nombre" placeholder="Nombre Completo.." required autofocus>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="correo">Correo</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" id="correo" name="correo" placeholder="Alguien@Example.com" required autofocus>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="telefono">Telefono</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="numero" placeholder="(6666-9999)">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="mensaje">Mensaje</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="mensaje" placeholder="Hola todo bien?.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" id="boton-enviar" value="Submit" onclick="hizoClick()">
+              </div>
+              <br>
+            </form>
+        </div>
+    </div>
+</body>
+<br>
+
+<footer>
+    <hr>
+    <section class="hero1">
+        <span class="pie">
+           <h2 class="titulo">INFO</h2>
+           <a href="../index.html">Inicio&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-house"></i> <br><br>
+           <a href="velas.html">Velas&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-fire-flame-simple"></i><br><br>
+           <a href="incienso.html">Incienso&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-cloud"></i><br><br>
+           <a href="Personalizacion.html">Personalizacion&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-brush"></i><br><br>
+           <a href="quienes_somos.html">Quienes Somos&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-question"></i><br><br> 
+           <a href="contactenos.html">Contactanos&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-location-dot"></i>
+        </span>
+        <span class="pie2">
+            <h2 class="titulo">VELAROMA</h2>
+            <p>2022</p>
+            <a>@velaroma&nbsp;&nbsp;</a><i class="fa-brands fa-instagram"></i><br><br>
+            <a>Ciudad de Panamá</a><br><br>
+            <a>+507 6319-4033&nbsp;&nbsp;</a><i class="fa-brands fa-whatsapp"></i>
+        </span>
+    </section>
+    <hr>
+    <span class="pie3">
+        <p>@ 2022, Velaroma-Velas,Incienso& Personalizacion</p>
+     </span>
+</footer>
+</html>

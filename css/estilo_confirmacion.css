@@ -1,0 +1,113 @@
+
+@font-face{
+	font-family:"Riwaya-Italic";
+	src:url("../fuentes/Riwaya-Italic.ttf") format("truetype");
+  }
+
+  
+  form {
+    display : flex;
+    justify-content: center;
+    padding-top:50px;
+}
+
+
+.titulo{
+    font-family:"Riwaya-Italic";
+    display:flex;
+    font-size:2.5rem;
+    justify-content: right;
+    color: #FFFFFF;
+
+}
+
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Riwaya-Italic";
+    font-size: 18px;
+    background-color: #D8A2A2;
+    border-radius:5px;
+    width:30%;
+    height:350px;
+    box-shadow: 7px 13px 37px;
+    }
+
+
+    .subtitulo{
+        font-family:"Riwaya-Italic";
+        text-align: center;
+        color:black;
+    }
+
+
+    
+    .entradas input[type=text]{
+        margin-bottom: 2px;
+        width: 90%;
+        font-size: 18px;
+        border-radius: 4px;
+        border: 2px solid #735b5b;
+        padding: 5px;
+        font-family:"Riwaya-Italic";
+        text-align: center;}
+
+        .entradas{
+            text-align: center;
+            width: 90%;
+            font-size:25px;
+            font-family:"Riwaya-Italic";
+            color:black;
+            border-radius:70px;
+            }
+
+   
+            .botones{
+                display:inline-block;
+                width:130px;
+            }
+            
+            
+            .enviar{
+                background-color: #735b5b;
+                border: none;
+                text-align: center;
+                cursor: pointer;
+                color: white;
+                padding: 5px 10px;
+                font-family:"Riwaya-Italic";
+                font-size: 15px;
+                border-radius: 4px;
+               }
+            
+            
+               .cancelar{
+                background-color: #735b5b;
+                border: none;
+                text-align: center;
+                cursor: pointer;
+                color: white;
+                padding: 5px 10px;
+                font-family:"Riwaya-Italic";
+                font-size: 15px;
+                border-radius: 4px;
+            }
+               
+            
+            .botones{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            width: 100%;}
+            
+            .btn1{
+                margin-right: 1rem;
+               overflow: hidden;
+            }
+            .btn2{
+                margin-right: 1rem;
+               overflow: hidden;
+            }

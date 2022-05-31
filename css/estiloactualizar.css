@@ -1,0 +1,113 @@
+@font-face{
+	font-family:"Riwaya-Italic";
+	src:url("../fuentes/Riwaya-Italic.ttf") format("truetype");
+  }
+#center
+{
+  
+  overflow:scroll;
+  overflow-x: hidden;
+    margin-top: 5rem;
+    height:25rem ;
+    width: fit-content(5rem);
+    display: inline-block;
+    justify-content: center;
+}
+.tabla
+{
+  
+    font-family:"Riwaya-Italic";
+    width:80rem;
+    font-size:1.5em;
+    align-self: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.tabla th{
+padding-top: 12px;
+padding-bottom: 12px;
+position:sticky;
+z-index: 0;
+text-align: center;
+background-color:#A48B8B; ;
+color: white;
+border-radius: 10px;
+}
+
+.btnagregar{
+  background-color:#8EFA80;
+    color:black;
+    text-align: center;
+    font-size:18px;
+    border-radius:20px;
+    font-family:"Riwaya-Italic";
+}
+
+.tabla tr:nth-child(even)
+{
+  background-color:#ffffff;
+  
+}
+
+.tabla tr
+{
+  background-color:#A6A6A6;
+}
+
+
+.tabla td,.tabla th
+{
+    border: 1px solid #ddd;
+  color: #ffffff;
+padding: 8px;
+
+}
+
+#act
+{
+  background-color:#8EFA80;
+    color:black;
+    height: 40px;
+    width: 80px;
+    font-size:18px;
+    border-radius:10px;
+    font-family:"Riwaya-Italic";
+}
+
+.act{
+  background:#8EFA80;
+  font-size: 18px;
+  color:black;
+  height:200px;
+  width: 80px;
+  text-decoration:none;
+  border-radius:10px;
+}
+
+#act2
+{
+  background-color:#8EFA80;
+    color:black;
+    height:50px;
+    width: 120px;
+    font-size:18px;
+    border-radius:10px;
+    font-family:"Riwaya-Italic";
+}
+
+#elim{
+    background-color:#F0766C;
+    color:black;
+    height: 40px;
+    width: 80px;
+    font-size:18px;
+    border-radius:10px;
+    font-family:"Riwaya-Italic";
+}
+#cent
+{
+    text-align: center;
+}
+
+
+

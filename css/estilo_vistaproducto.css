@@ -1,0 +1,78 @@
+
+@font-face{
+	font-family:"Riwaya-Italic";
+	src:url("../fuentes/Riwaya-Italic.ttf") format("truetype");
+  }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-family:"Riwaya-Italic";
+}
+
+td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+th {
+    background-color: #a48b8b;
+}
+
+
+.boton {
+    background-color: #D8A2A2;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 2px 2px;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+    
+}
+
+
+
+.agregar:hover {
+    background-color: #735b5b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-family:"Riwaya-Italic";
+    border-radius: 4px;
+}
+
+.agregar {
+    background-color: #735b5b;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+
+.boton:hover{
+    background-color: #D8A2A2;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 2px 2px;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    color: black;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Usuario</title>
+    <link rel="stylesheet" href = "../css/estilo.css">
+    <link rel="stylesheet" href = "../css/estilo_editarusuario.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <script src="https://kit.fontawesome.com/82edd683c2.js" crossorigin="anonymous"></script>
+    <header>
+        <section class="hero">
+        <div class="logo"><img src="../img/logo2.png" width="300px"></div>
+        </section>
+    </header>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="administrador.html"><i class="fa-solid fa-house fa-2xl"></i><p>Inicio</p></a></li>
+          <li><a href="actualizar_elim_usuario.html"><i class="fa-solid fa-users fa-2xl"></i><p>Editar/Agregar Usuario</p></a></li>
+          <li><a href="vistaProductoAdmin.html"><i class="fa-solid fa-parachute-box fa-2xl"></i><p>Editar/Agregar Producto</p></a>
+          <li><a href="listadoPedidos.html"><i class="fa-solid fa-truck fa-2xl"></i><p>Listado de Pedidos</p></a></li>
+          <li><a href="vertransacciones.html"><i class="fa-solid fa-money-check-dollar fa-2xl"></i><p>Transacciones</p></a></li>
+          <li><a href="inicio_sesion.html"><i class="fa-solid fa-circle-xmark fa-2xl"></i><p>Cerrar Sesion</p></a></li>
+        </ul>
+    </nav>
+    <body>
+        <section>
+            <form action="actualizar_elim_usuario.html" method="POST">
+                <fieldset>
+                   
+                    <div class="subtitulo">
+                        <br>
+                        <H2>Creación de Usuario</H2>
+                    </div> 
+                    <div class="entradas">
+                        Nombre:
+                       <input type="text" name="nombre" required placeholder="SuNombre">
+                       <br>
+                       <br>
+                       Apellido:
+                       <input type="text" name="apellido" required placeholder="Suapellido">
+                       <br>
+                       <br>
+                       Correo:
+                       <input type="email" name="correo" required placeholder="alguien@gmail.com">
+                       <br>
+                       <br>
+                       Contraseña:
+                       <input type="text" name="password" required placeholder="********">
+                       <br>
+                       <br>
+                       Tipo de Usuario
+                       <br>
+                       <input type="radio" name="usuario" value="1" checked>Administrador
+                       <br>
+                       <input type="radio" name="usuario" value="2" checked>Usuario Estandar
+                       <br>
+                       <br>
+                    <div class="botones"> 
+                        <div class="btn1">
+                        <input class="enviar" type="submit" name="enviar" value="AGREGAR">
+                        </div>
+                        <BR>
+                        <div class="btn2">
+                        <input class="cancelar" type="reset" name="cancelar" value="CANCELAR" >
+                    </div>
+                    </div> 
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+       
+</body>
+<br>
+<footer>
+    <hr>
+    <section class="hero1">
+        <span class="pie">
+           <h2 class="titulo">INFO</h2>
+           <a href="administrador.html">Inicio&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-house "></i><br><br>
+           <a href="actualizar_elim_usuario.html">Editar/Agregar Usuario&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-users"></i><br><br>
+           <a href="vistaProductoAdmin.html">Editar/Agregar Producto&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-parachute-box"></i><br><br>
+           <a href="listadoPedidos.html">Listado de Pedidos&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-truck"></i><br><br>
+           <a href="vertransacciones.html">Transacciones&nbsp;&nbsp;</a>
+           <i class="fa-solid fa-money-check-dollar"></i>
+           <br><br> 
+        </span>
+        <span class="pie2">
+            <h2 class="titulo">VELAROMA</h2>
+            <p>2022</p>
+            <a>@velaroma&nbsp;&nbsp;</a><i class="fa-brands fa-instagram"></i><br><br>
+            <a>Ciudad de Panamá</a><br><br>
+            <a>+507 6319-4033&nbsp;&nbsp;</a><i class="fa-brands fa-whatsapp"></i>
+        </span>
+    </section>
+    <hr>
+    <span class="pie3">
+        <p>@ 2022, Velaroma-Velas,Inciesno & Personalizacion</p>
+     </span>
+</footer>
+</html>

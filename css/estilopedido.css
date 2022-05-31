@@ -1,0 +1,25 @@
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+th {
+    background-color: #a48b8b;
+}
+
+button {
+
+    background-color: #D8A2A2;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}

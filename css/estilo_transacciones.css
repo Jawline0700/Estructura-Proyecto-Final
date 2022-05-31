@@ -1,0 +1,26 @@
+
+  @font-face{
+    font-family:"Riwaya-Italic";
+    src:url("../fuentes/Riwaya-Italic.ttf") format("truetype");
+    }
+  
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      font-family:"Riwaya-Italic";
+  }
+  
+  td, th {
+      border: 2px solid black;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+  }
+  
+  th {
+      background-color: #a48b8b;
+  }
+  
+  
