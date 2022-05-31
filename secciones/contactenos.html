@@ -47,7 +47,7 @@
             </div>
           </li>
           <li><a href="contactenos.html"><i class="fa-solid fa-location-dot fa-2xl"></i><p>Contactanos</p></a></li>
-          <li><button id="boton-carrito"><i class="fa-solid fa-shopping-cart fa-2xl"></i><span id="contadorCarrito">0</span><p>Carrito</p></button></li>
+          <li><div class="carritobtn"><button id="boton-carrito" class="btncar"><i class="fa-solid fa-shopping-cart fa-2xl"></i><span id="contadorCarrito">0</span><p>Carrito</p></button> </div></li>
         </ul>
     </nav>
 
@@ -62,6 +62,9 @@
             </div>
             <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
             <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+            <form action="pagos.html">
+              <button  class="boton-pagar">Pagar</button>
+          </form>
         </div>
     </div>
     <div class="container">

@@ -15,10 +15,25 @@
     color:white;
     font-size: 20px;
     transition: all .3s;
-    transform:translateY(-45px);
     height: 100px;
 
 }
+.btncar{
+    position:absolute;
+    bottom:60%;
+    border: none;
+    background-color:#D8A2A2;
+    color:white;
+    font-size: 20px;
+    transition: all .3s;
+    height: 100px;
+}
+
+.carritobtn{
+    text-align: center;
+}
+
+
 #boton-carrito:hover {
     cursor: pointer;
     background-color: #A48B8B;
@@ -45,13 +60,35 @@
 .precioProducto {
     font-weight: 700;
 }
-.boton-agregar {
-    background-color: #A48B8B;
-    color: white;
-    font-size: 18px;
-    font-family:"Riwaya-Italic";
-    padding: 5px;
+
+.boton-pagar{
+    transform:translateY(-30px);
+    margin-left: 400px;
+    background-color: #D8A2A2;
     border: none;
+    color: #FFFFFF;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+   
+
+}
+.boton-agregar {
+    background-color: #D8A2A2;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 2px 2px;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
 }
 .boton-agregar:hover {
     cursor: pointer;
@@ -147,10 +184,4 @@
 }
 .boton-eliminar:focus {
     outline: none;
-}
-.btn_pagar{
-    background: #A48B8B;
-    font-size: 18px;
-    color: #FFFFFF;
-    text-decoration:none;
 }

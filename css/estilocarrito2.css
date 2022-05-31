@@ -46,13 +46,37 @@
     font-weight: 700;
 }
 .boton-agregar {
-    background-color: #A48B8B;
-    color: white;
-    font-size: 18px;
-    font-family:"Riwaya-Italic";
-    padding: 5px;
+    background-color: #D8A2A2;
     border: none;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 15px;
+    margin: 2px 2px;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
 }
+
+
+.boton-pagar{
+    transform:translateY(-32px);
+    margin-left: 400px;
+    background-color: #D8A2A2;
+    border: none;
+    color: #FFFFFF;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family:"Riwaya-Italic";
+    font-size: 15px;
+   
+
+}
+
 .boton-agregar:hover {
     cursor: pointer;
 }
