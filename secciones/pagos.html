@@ -10,22 +10,6 @@
     <script src="https://kit.fontawesome.com/82edd683c2.js" crossorigin="anonymous"></script>
     <script defer src="../js/modal.js"></script>
     <script defer src="../js/control.js"></script>
-    <script>
-        function hizoClick() {
-          let nombre = document.getElementById("name").value;
-          let correo = document.getElementById("email").value;
-          if (nombre == "") {
-              alert("El campo nombre esta vacio, por favor llene el campo"); 
-          } else {
-
-              if (correo == "") {
-                alert("El campo correo esta vacio, por favor llene el campo"); 
-              } else {
-                alert("Tu mensaje fue enviado con exito :)");
-              }
-          }
-        }
-    </script>
     <header>
         <section class="hero">
         <div class="logo"><img src="../img/logo2.png" width="300px"></div>
@@ -50,6 +34,23 @@
           <li><button id="boton-carrito"><i class="fa-solid fa-shopping-cart fa-2xl"></i><span id="contadorCarrito">0</span><p>Carrito</p></button></li>
         </ul>
     </nav>
+
+    <script>
+      function hizoClick() {
+        let nombre = document.getElementById("name").value;
+        let correo = document.getElementById("email").value;
+        if (nombre == "") {
+            alert("El campo nombre esta vacio, por favor llene el campo"); 
+        } else {
+
+            if (correo == "") {
+              alert("El campo correo esta vacio, por favor llene el campo"); 
+            } else {
+              alert("Tu mensaje fue enviado con exito :)");
+            }
+        }
+      }
+  </script>
 
     <main id="contenedor-productos">
 
